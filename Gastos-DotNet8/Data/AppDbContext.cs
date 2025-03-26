@@ -13,8 +13,8 @@ namespace Gastos_DotNet8.Data
 
 
 
-        public DbSet<Person> Persons { get; set; }
-        public DbSet<Transaction> Transactions { get; set; }
+        public DbSet<PersonModel> Persons { get; set; }
+        public DbSet<TransactionModel> Transactions { get; set; }
 
     }
 }

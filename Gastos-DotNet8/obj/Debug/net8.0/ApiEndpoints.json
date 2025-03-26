@@ -1,0 +1,126 @@
+[
+  {
+    "ContainingType": "Gastos_DotNet8.Controllers.PersonController",
+    "Method": "CreatePerson",
+    "RelativePath": "api/v1/Person",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "person",
+        "Type": "Gastos_DotNet8.Dtos.Person.CreatePersonDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Gastos_DotNet8.Models.ResponseModel\u00601[[Gastos_DotNet8.Models.PersonModel, Gastos-DotNet8, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Gastos_DotNet8.Controllers.PersonController",
+    "Method": "ListAllPersons",
+    "RelativePath": "api/v1/Person",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "Gastos_DotNet8.Models.ResponseModel\u00601[[System.Collections.Generic.List\u00601[[Gastos_DotNet8.Models.PersonModel, Gastos-DotNet8, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Gastos_DotNet8.Controllers.PersonController",
+    "Method": "UpdatePerson",
+    "RelativePath": "api/v1/Person",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "updatePersonDto",
+        "Type": "Gastos_DotNet8.Dtos.Person.UpdatePersonDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[Gastos_DotNet8.Models.ResponseModel\u00601[[Gastos_DotNet8.Models.PersonModel, Gastos-DotNet8, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], Gastos-DotNet8, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Gastos_DotNet8.Controllers.PersonController",
+    "Method": "GetById",
+    "RelativePath": "api/v1/Person/{idPerson}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "idPerson",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Gastos_DotNet8.Models.ResponseModel\u00601[[Gastos_DotNet8.Models.PersonModel, Gastos-DotNet8, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Gastos_DotNet8.Controllers.PersonController",
+    "Method": "DeletePerson",
+    "RelativePath": "api/v1/Person/{idPerson}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "idPerson",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[Gastos_DotNet8.Models.ResponseModel\u00601[[Gastos_DotNet8.Models.PersonModel, Gastos-DotNet8, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], Gastos-DotNet8, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  }
+]

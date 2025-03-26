@@ -3,24 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\Jo\u00E3o Pedro Uch\u00F4\\source\\repos\\Gastos-DotNet8\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Jo\u00E3o Pedro Uch\u00F4\\source\\repos\\Gastos-DotNet8\\Gastos-DotNet8\\Migrations\\20250326034927_CreateDataBase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Gastos-DotNet8\\Migrations\\20250326034927_CreateDataBase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{AE064274-0F52-4419-8876-39056675329D}|Gastos-DotNet8\\Gastos-DotNet8.csproj|c:\\users\\jo\u00E3o pedro uch\u00F4\\source\\repos\\gastos-dotnet8\\gastos-dotnet8\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AE064274-0F52-4419-8876-39056675329D}|Gastos-DotNet8\\Gastos-DotNet8.csproj|solutionrelative:gastos-dotnet8\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AE064274-0F52-4419-8876-39056675329D}|Gastos-DotNet8\\Gastos-DotNet8.csproj|c:\\users\\jo\u00E3o pedro uch\u00F4\\source\\repos\\gastos-dotnet8\\gastos-dotnet8\\models\\person.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AE064274-0F52-4419-8876-39056675329D}|Gastos-DotNet8\\Gastos-DotNet8.csproj|solutionrelative:gastos-dotnet8\\models\\person.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{AE064274-0F52-4419-8876-39056675329D}|Gastos-DotNet8\\Gastos-DotNet8.csproj|c:\\users\\jo\u00E3o pedro uch\u00F4\\source\\repos\\gastos-dotnet8\\gastos-dotnet8\\services\\transaction\\transaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AE064274-0F52-4419-8876-39056675329D}|Gastos-DotNet8\\Gastos-DotNet8.csproj|solutionrelative:gastos-dotnet8\\services\\transaction\\transaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AE064274-0F52-4419-8876-39056675329D}|Gastos-DotNet8\\Gastos-DotNet8.csproj|c:\\users\\jo\u00E3o pedro uch\u00F4\\source\\repos\\gastos-dotnet8\\gastos-dotnet8\\models\\transaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AE064274-0F52-4419-8876-39056675329D}|Gastos-DotNet8\\Gastos-DotNet8.csproj|solutionrelative:gastos-dotnet8\\models\\transaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AE064274-0F52-4419-8876-39056675329D}|Gastos-DotNet8\\Gastos-DotNet8.csproj|c:\\users\\jo\u00E3o pedro uch\u00F4\\source\\repos\\gastos-dotnet8\\gastos-dotnet8\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AE064274-0F52-4419-8876-39056675329D}|Gastos-DotNet8\\Gastos-DotNet8.csproj|solutionrelative:gastos-dotnet8\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{AE064274-0F52-4419-8876-39056675329D}|Gastos-DotNet8\\Gastos-DotNet8.csproj|c:\\users\\jo\u00E3o pedro uch\u00F4\\source\\repos\\gastos-dotnet8\\gastos-dotnet8\\services\\transaction\\itransactioninterface.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AE064274-0F52-4419-8876-39056675329D}|Gastos-DotNet8\\Gastos-DotNet8.csproj|solutionrelative:gastos-dotnet8\\services\\transaction\\itransactioninterface.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,76 +22,50 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
-            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "20250326034927_CreateDataBase.cs",
-              "DocumentMoniker": "C:\\Users\\Jo\u00E3o Pedro Uch\u00F4\\source\\repos\\Gastos-DotNet8\\Gastos-DotNet8\\Migrations\\20250326034927_CreateDataBase.cs",
-              "RelativeDocumentMoniker": "Gastos-DotNet8\\Migrations\\20250326034927_CreateDataBase.cs",
-              "ToolTip": "C:\\Users\\Jo\u00E3o Pedro Uch\u00F4\\source\\repos\\Gastos-DotNet8\\Gastos-DotNet8\\Migrations\\20250326034927_CreateDataBase.cs",
-              "RelativeToolTip": "Gastos-DotNet8\\Migrations\\20250326034927_CreateDataBase.cs",
-              "ViewState": "AgIAABsAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-26T03:49:27.349Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Jo\u00E3o Pedro Uch\u00F4\\source\\repos\\Gastos-DotNet8\\Gastos-DotNet8\\Program.cs",
               "RelativeDocumentMoniker": "Gastos-DotNet8\\Program.cs",
               "ToolTip": "C:\\Users\\Jo\u00E3o Pedro Uch\u00F4\\source\\repos\\Gastos-DotNet8\\Gastos-DotNet8\\Program.cs",
               "RelativeToolTip": "Gastos-DotNet8\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAA+AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-26T03:30:50.274Z",
+              "WhenOpened": "2025-03-26T16:00:55.129Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "AppDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\Jo\u00E3o Pedro Uch\u00F4\\source\\repos\\Gastos-DotNet8\\Gastos-DotNet8\\Data\\AppDbContext.cs",
-              "RelativeDocumentMoniker": "Gastos-DotNet8\\Data\\AppDbContext.cs",
-              "ToolTip": "C:\\Users\\Jo\u00E3o Pedro Uch\u00F4\\source\\repos\\Gastos-DotNet8\\Gastos-DotNet8\\Data\\AppDbContext.cs",
-              "RelativeToolTip": "Gastos-DotNet8\\Data\\AppDbContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-26T03:17:40.326Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "Transaction.cs",
-              "DocumentMoniker": "C:\\Users\\Jo\u00E3o Pedro Uch\u00F4\\source\\repos\\Gastos-DotNet8\\Gastos-DotNet8\\Models\\Transaction.cs",
-              "RelativeDocumentMoniker": "Gastos-DotNet8\\Models\\Transaction.cs",
-              "ToolTip": "C:\\Users\\Jo\u00E3o Pedro Uch\u00F4\\source\\repos\\Gastos-DotNet8\\Gastos-DotNet8\\Models\\Transaction.cs",
-              "RelativeToolTip": "Gastos-DotNet8\\Models\\Transaction.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAUAAAAAAAAAA==",
+              "DocumentMoniker": "C:\\Users\\Jo\u00E3o Pedro Uch\u00F4\\source\\repos\\Gastos-DotNet8\\Gastos-DotNet8\\Services\\Transaction\\Transaction.cs",
+              "RelativeDocumentMoniker": "Gastos-DotNet8\\Services\\Transaction\\Transaction.cs",
+              "ToolTip": "C:\\Users\\Jo\u00E3o Pedro Uch\u00F4\\source\\repos\\Gastos-DotNet8\\Gastos-DotNet8\\Services\\Transaction\\Transaction.cs",
+              "RelativeToolTip": "Gastos-DotNet8\\Services\\Transaction\\Transaction.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAA0AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-26T03:01:34.164Z",
+              "WhenOpened": "2025-03-26T16:00:19.992Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Person.cs",
-              "DocumentMoniker": "C:\\Users\\Jo\u00E3o Pedro Uch\u00F4\\source\\repos\\Gastos-DotNet8\\Gastos-DotNet8\\Models\\Person.cs",
-              "RelativeDocumentMoniker": "Gastos-DotNet8\\Models\\Person.cs",
-              "ToolTip": "C:\\Users\\Jo\u00E3o Pedro Uch\u00F4\\source\\repos\\Gastos-DotNet8\\Gastos-DotNet8\\Models\\Person.cs",
-              "RelativeToolTip": "Gastos-DotNet8\\Models\\Person.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAASAAAAAAAAAA==",
+              "Title": "ITransactionInterface.cs",
+              "DocumentMoniker": "C:\\Users\\Jo\u00E3o Pedro Uch\u00F4\\source\\repos\\Gastos-DotNet8\\Gastos-DotNet8\\Services\\Transaction\\ITransactionInterface.cs",
+              "RelativeDocumentMoniker": "Gastos-DotNet8\\Services\\Transaction\\ITransactionInterface.cs",
+              "ToolTip": "C:\\Users\\Jo\u00E3o Pedro Uch\u00F4\\source\\repos\\Gastos-DotNet8\\Gastos-DotNet8\\Services\\Transaction\\ITransactionInterface.cs",
+              "RelativeToolTip": "Gastos-DotNet8\\Services\\Transaction\\ITransactionInterface.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-26T02:36:23.688Z",
+              "WhenOpened": "2025-03-26T16:00:18.08Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
             }
           ]
         }
