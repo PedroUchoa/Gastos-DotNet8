@@ -122,5 +122,97 @@
         "StatusCode": 200
       }
     ]
+  },
+  {
+    "ContainingType": "Gastos_DotNet8.Controllers.TransactionController",
+    "Method": "CreatePerson",
+    "RelativePath": "api/v1/Transaction",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "createTransaction",
+        "Type": "Gastos_DotNet8.Dtos.Transaction.CreateTransactionDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Gastos_DotNet8.Models.ResponseModel\u00601[[Gastos_DotNet8.Models.TransactionModel, Gastos-DotNet8, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Gastos_DotNet8.Controllers.TransactionController",
+    "Method": "ListAllTransactions",
+    "RelativePath": "api/v1/Transaction",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "Gastos_DotNet8.Models.ResponseModel\u00601[[System.Collections.Generic.List\u00601[[Gastos_DotNet8.Dtos.Transaction.ReturnTransactionDto, Gastos-DotNet8, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Gastos_DotNet8.Controllers.TransactionController",
+    "Method": "GetTransactionById",
+    "RelativePath": "api/v1/Transaction/{idTransaction}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "idTransaction",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Gastos_DotNet8.Models.ResponseModel\u00601[[Gastos_DotNet8.Dtos.Transaction.ReturnTransactionDto, Gastos-DotNet8, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Gastos_DotNet8.Controllers.TransactionController",
+    "Method": "ListValueAllTransactions",
+    "RelativePath": "api/v1/Transaction/Total",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "Gastos_DotNet8.Models.ResponseModel\u00601[[System.Collections.Generic.List\u00601[[Gastos_DotNet8.Dtos.Transaction.TotalTransactionValueDto, Gastos-DotNet8, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
   }
 ]

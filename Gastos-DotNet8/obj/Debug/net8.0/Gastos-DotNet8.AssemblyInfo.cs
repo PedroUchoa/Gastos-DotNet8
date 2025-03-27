@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Gastos-DotNet8")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+78cbd221c76ef427863ea6e8c66aa64984c52342")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5b819d61d9ee27c7ed2712d4ecf9164d3c9f6469")]
 [assembly: System.Reflection.AssemblyProductAttribute("Gastos-DotNet8")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Gastos-DotNet8")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

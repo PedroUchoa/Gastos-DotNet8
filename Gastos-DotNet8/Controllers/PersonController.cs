@@ -23,7 +23,7 @@ namespace Gastos_DotNet8.Controllers
         public async Task<ActionResult<ResponseModel<PersonModel>>> CreatePerson(CreatePersonDto person)
         {
             var returnedPerson = await _personInterface.CreatePerson(person);
-            return Created(new Uri(Request.GetEncodedUrl()+"/"+ returnedPerson.Data.Id), returnedPerson);
+            return Ok(returnedPerson);
         }
 
 

@@ -44,7 +44,7 @@ namespace Gastos_DotNet8.Services.Person
             try
             {
 
-                var person = await _context.Persons.FirstOrDefaultAsync(personDB => personDB.Id == id);
+                var person = await _context.Persons.Include(t => t.Transactions).FirstOrDefaultAsync(personDB => personDB.Id == id);
 
                 if (person == null)
                 {
@@ -69,7 +69,7 @@ namespace Gastos_DotNet8.Services.Person
             ResponseModel<List<PersonModel>> response = new ResponseModel<List<PersonModel>>();
             try
             {
-                var persons = await _context.Persons.ToListAsync();
+                var persons = await _context.Persons.Include(t=>t.Transactions).ToListAsync();
 
                 response.Data = persons;
 
@@ -92,7 +92,7 @@ namespace Gastos_DotNet8.Services.Person
                 var person = await _context.Persons.FirstOrDefaultAsync(personDb => personDb.Id == updatePersonDto.Id); 
                 if(person == null)
                 {
-                    response.Mensagem = "No Person Found";
+                    response.Mensagem = "Person Not Found";
                     return response;
                 }
                 person.Name = updatePersonDto.Name;
@@ -100,7 +100,7 @@ namespace Gastos_DotNet8.Services.Person
 
                 _context.Update(person);
                 await _context.SaveChangesAsync();
-                response.Data = await _context.Persons.ToListAsync();
+                response.Data = await _context.Persons.Include(t => t.Transactions).ToListAsync();
                 response.Mensagem = "Person Updated";
                 return response;
 
@@ -127,7 +127,7 @@ namespace Gastos_DotNet8.Services.Person
 
                 _context.Persons.Remove(person);
                 await _context.SaveChangesAsync();
-                response.Data = await _context.Persons.ToListAsync();
+                response.Data = await _context.Persons.Include(t => t.Transactions).ToListAsync();
                 response.Mensagem = "Person Removed";
                 return response;
             }
